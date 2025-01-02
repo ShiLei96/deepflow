@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: querier trans ip6 error [#8834](https://github.com/deepflowio/deepflow/pull/8834) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Fix process event type size [#8752](https://github.com/deepflowio/deepflow/pull/8752) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Event Type Value [#8745](https://github.com/deepflowio/deepflow/pull/8745) by [yinjiping](https://github.com/yinjiping)
@@ -272,6 +273,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: chost support subnet filter [#8833](https://github.com/deepflowio/deepflow/pull/8833) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: http url supports utf8 [#8829](https://github.com/deepflowio/deepflow/pull/8829) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: supports postgres in db session [#8825](https://github.com/deepflowio/deepflow/pull/8825) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: [controller] add vpc info in vtap api [#8824](https://github.com/deepflowio/deepflow/pull/8824) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: removes unused code [#8788](https://github.com/deepflowio/deepflow/pull/8788) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -573,6 +579,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: change the flow_tag primary key to improve query speed [#8826](https://github.com/deepflowio/deepflow/pull/8826) by [lzf575](https://github.com/lzf575)
 * perf: add primary key for in_process table [#8623](https://github.com/deepflowio/deepflow/pull/8623) by [lzf575](https://github.com/lzf575)
 * perf: modify materialized view local table without group by [#8575](https://github.com/deepflowio/deepflow/pull/8575) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of json string escape [#8508](https://github.com/deepflowio/deepflow/pull/8508) by [lzf575](https://github.com/lzf575)
