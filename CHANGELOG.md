@@ -272,6 +272,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: optimize the number of dynamic tag queries [#8779](https://github.com/deepflowio/deepflow/pull/8779) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -539,6 +540,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: upgrade the go package crypto to 0.31 [#8866](https://github.com/deepflowio/deepflow/pull/8866) by [lzf575](https://github.com/lzf575)
 * refactor: Remove legacy agent config [#8586](https://github.com/deepflowio/deepflow/pull/8586) by [rvql](https://github.com/rvql)
 * refactor: modify log of configuration changes [#8258](https://github.com/deepflowio/deepflow/pull/8258) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: agent workspace dependencies [#8208](https://github.com/deepflowio/deepflow/pull/8208) by [TomatoMr](https://github.com/TomatoMr)
