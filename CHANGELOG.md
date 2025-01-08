@@ -272,6 +272,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify the close_type of a non-tcp flow [#8879](https://github.com/deepflowio/deepflow/pull/8879) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Rename the file common.c to utils.c [#8876](https://github.com/deepflowio/deepflow/pull/8876) by [yinjiping](https://github.com/yinjiping)
+* feat: querier subnet support vpc filter [#8872](https://github.com/deepflowio/deepflow/pull/8872) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
