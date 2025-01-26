@@ -272,6 +272,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: discard the old configuration - 3 [#9032](https://github.com/deepflowio/deepflow/pull/9032) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: refactors http response [#9025](https://github.com/deepflowio/deepflow/pull/9025) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
