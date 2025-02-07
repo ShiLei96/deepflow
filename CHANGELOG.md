@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* feat: fixes metadb issu procedure error [#9056](https://github.com/deepflowio/deepflow/pull/9056) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: Agent api_watcher not starting when disabled [#9047](https://github.com/deepflowio/deepflow/pull/9047) by [rvql](https://github.com/rvql)
+* fix: [cli] compilation error #8553 [#9043](https://github.com/deepflowio/deepflow/pull/9043) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Fix process event type size [#8752](https://github.com/deepflowio/deepflow/pull/8752) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Event Type Value [#8745](https://github.com/deepflowio/deepflow/pull/8745) by [yinjiping](https://github.com/yinjiping)
@@ -272,6 +275,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: adds epc_id to vinterface table [#9033](https://github.com/deepflowio/deepflow/pull/9033) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: genesis delete invalid code [#8855](https://github.com/deepflowio/deepflow/pull/8855) by [askyrie](https://github.com/askyrie)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
