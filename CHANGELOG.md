@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: vtap-interfaces responses wrong host info [#9103](https://github.com/deepflowio/deepflow/pull/9103) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Fix process event type size [#8752](https://github.com/deepflowio/deepflow/pull/8752) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Event Type Value [#8745](https://github.com/deepflowio/deepflow/pull/8745) by [yinjiping](https://github.com/yinjiping)
@@ -272,6 +273,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* Revert "feat: update agent-upgrade cli" [#9109](https://github.com/deepflowio/deepflow/pull/9109) by [askyrie](https://github.com/askyrie)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
