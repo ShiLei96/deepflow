@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
+* fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
 * fix: agent - eBPF Fix process event type size [#8752](https://github.com/deepflowio/deepflow/pull/8752) by [yinjiping](https://github.com/yinjiping)
 * fix: agent - eBPF Fix Event Type Value [#8745](https://github.com/deepflowio/deepflow/pull/8745) by [yinjiping](https://github.com/yinjiping)
@@ -272,6 +274,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
 * feat: update vtap ignore fields [#8748](https://github.com/deepflowio/deepflow/pull/8748) by [askyrie](https://github.com/askyrie)
 * feat: adds health check warning [#8726](https://github.com/deepflowio/deepflow/pull/8726) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -598,6 +602,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* doc: add vc dial example yaml [#9128](https://github.com/deepflowio/deepflow/pull/9128) by [taloric](https://github.com/taloric)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
 * Update typo in comments [#8127](https://github.com/deepflowio/deepflow/pull/8127) by [Hyzhou](https://github.com/Hyzhou)
