@@ -274,6 +274,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add new agent license function enum [#9337](https://github.com/deepflowio/deepflow/pull/9337) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: mysql support login response [#9334](https://github.com/deepflowio/deepflow/pull/9334) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
