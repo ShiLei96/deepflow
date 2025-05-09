@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Fix high resource usage in container ID retrieval [#9622](https://github.com/deepflowio/deepflow/pull/9622) by [yinjiping](https://github.com/yinjiping)
+* fix: Windows compile [#9613](https://github.com/deepflowio/deepflow/pull/9613) by [rvql](https://github.com/rvql)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
