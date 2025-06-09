@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: deepflow-ctl vpc list error [#9781](https://github.com/deepflowio/deepflow/pull/9781) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: produces wrong config map diff content [#9766](https://github.com/deepflowio/deepflow/pull/9766) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier add modify config [#9795](https://github.com/deepflowio/deepflow/pull/9795) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: resource event support fill tags with gprocessid [#9794](https://github.com/deepflowio/deepflow/pull/9794) by [lzf575](https://github.com/lzf575)
+* feat: add device type process [#9789](https://github.com/deepflowio/deepflow/pull/9789) by [lzf575](https://github.com/lzf575)
+* feat: responses agent config dict sub field default value [#9780](https://github.com/deepflowio/deepflow/pull/9780) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: if there are duplicate MACs, do not use MAC to tag [#9774](https://github.com/deepflowio/deepflow/pull/9774) by [lzf575](https://github.com/lzf575)
+* feat: Support grpc buffer size [#9762](https://github.com/deepflowio/deepflow/pull/9762) by [rvql](https://github.com/rvql)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -602,6 +610,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* README 中添加 GitCode 挂件 [#9791](https://github.com/deepflowio/deepflow/pull/9791) by [1473371932](https://github.com/1473371932)
 * doc: add vc dial example yaml [#9128](https://github.com/deepflowio/deepflow/pull/9128) by [taloric](https://github.com/taloric)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
