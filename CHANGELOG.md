@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: tagrecorder create database error [#9834](https://github.com/deepflowio/deepflow/pull/9834) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: tls log missing response [#9825](https://github.com/deepflowio/deepflow/pull/9825) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: deletes config map data when deleting domain/subdomain [#9827](https://github.com/deepflowio/deepflow/pull/9827) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add free disk circuit breaker [#9759](https://github.com/deepflowio/deepflow/pull/9759) by [lzf575](https://github.com/lzf575)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
