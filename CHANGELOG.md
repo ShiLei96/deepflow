@@ -274,6 +274,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support change datasource listen port [#9874](https://github.com/deepflowio/deepflow/pull/9874) by [lzf575](https://github.com/lzf575)
+* feat: agent - Split protocol inference eBPF program using tail calls [#9872](https://github.com/deepflowio/deepflow/pull/9872) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Add DPDK packet capture configuration instructions [#9841](https://github.com/deepflowio/deepflow/pull/9841) by [yinjiping](https://github.com/yinjiping)
+* feat: kernel version check [#9831](https://github.com/deepflowio/deepflow/pull/9831) by [lzf575](https://github.com/lzf575)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
