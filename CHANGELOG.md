@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent is restarted when vpc is 0 [#9992](https://github.com/deepflowio/deepflow/pull/9992) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: responses gid to gpid-agent-request [#9990](https://github.com/deepflowio/deepflow/pull/9990) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: incorrect log_retention [#9986](https://github.com/deepflowio/deepflow/pull/9986) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: the OOM caused by enabling uprobe [#9982](https://github.com/deepflowio/deepflow/pull/9982) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +278,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: host concatenated with port support ipv6 [#9930](https://github.com/deepflowio/deepflow/pull/9930) by [askyrie](https://github.com/askyrie)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
