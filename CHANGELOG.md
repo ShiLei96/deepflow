@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Avoid strace command stuck forever [#10002](https://github.com/deepflowio/deepflow/pull/10002) by [rvql](https://github.com/rvql)
+* fix: responses wrong gid value to agent [#9997](https://github.com/deepflowio/deepflow/pull/9997) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Sync process info on os_app_tag change [#10008](https://github.com/deepflowio/deepflow/pull/10008) by [rvql](https://github.com/rvql)
+* feat: Upgrade kube-rs to 0.98.0 to support k8s 1.32 [#10001](https://github.com/deepflowio/deepflow/pull/10001) by [rvql](https://github.com/rvql)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -598,6 +602,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: add response_status description [#10010](https://github.com/deepflowio/deepflow/pull/10010) by [lzf575](https://github.com/lzf575)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
