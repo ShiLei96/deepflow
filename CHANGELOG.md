@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: owner vtap set all function [#10014](https://github.com/deepflowio/deepflow/pull/10014) by [askyrie](https://github.com/askyrie)
+* fix: should delete ch_os_app_tags data when deleting process [#9971](https://github.com/deepflowio/deepflow/pull/9971) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Set tcpseq to 0 for Unix socket data [#10015](https://github.com/deepflowio/deepflow/pull/10015) by [yinjiping](https://github.com/yinjiping)
+* feat: adds more detail log of id allocation [#9995](https://github.com/deepflowio/deepflow/pull/9995) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
