@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: flush l7 throttle when timeout [#10171](https://github.com/deepflowio/deepflow/pull/10171) by [lzf575](https://github.com/lzf575)
+* fix: SofaRPC response status [#10168](https://github.com/deepflowio/deepflow/pull/10168) by [rvql](https://github.com/rvql)
+* fix: querier remove outer auto ip group [#10137](https://github.com/deepflowio/deepflow/pull/10137) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
