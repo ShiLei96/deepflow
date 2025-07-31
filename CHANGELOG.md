@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: trace tree ipv6 encode panic [#10223](https://github.com/deepflowio/deepflow/pull/10223) by [lzf575](https://github.com/lzf575)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +275,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: deletes unused test code [#10230](https://github.com/deepflowio/deepflow/pull/10230) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: rename metadb variables [#10229](https://github.com/deepflowio/deepflow/pull/10229) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: modify map item empty filter [#10214](https://github.com/deepflowio/deepflow/pull/10214) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
