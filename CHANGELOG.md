@@ -274,6 +274,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: renames confusing message variable names [#10264](https://github.com/deepflowio/deepflow/pull/10264) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: tagrecorder supports custom cloud tag [#10244](https://github.com/deepflowio/deepflow/pull/10244) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
