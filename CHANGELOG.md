@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: EE compile [#10322](https://github.com/deepflowio/deepflow/pull/10322) by [rvql](https://github.com/rvql)
+* fix: add LogCache ref [#10316](https://github.com/deepflowio/deepflow/pull/10316) by [taloric](https://github.com/taloric)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
