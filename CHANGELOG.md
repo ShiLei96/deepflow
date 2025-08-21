@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: sets wrong domain filter value in agent group config [#10334](https://github.com/deepflowio/deepflow/pull/10334) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: auto enable agent sync workload-v [#10328](https://github.com/deepflowio/deepflow/pull/10328) by [askyrie](https://github.com/askyrie)
+* fix: concurrent write vtap synced_controller_at [#10320](https://github.com/deepflowio/deepflow/pull/10320) by [askyrie](https://github.com/askyrie)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
