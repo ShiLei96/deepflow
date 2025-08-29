@@ -274,6 +274,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add profile in_process metrics table [#10361](https://github.com/deepflowio/deepflow/pull/10361) by [lzf575](https://github.com/lzf575)
+* feat: improves agent config api performance [#10356](https://github.com/deepflowio/deepflow/pull/10356) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add file type field to IO event [#10355](https://github.com/deepflowio/deepflow/pull/10355) by [lzf575](https://github.com/lzf575)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
