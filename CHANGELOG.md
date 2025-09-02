@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: disk io log level from warn to debug [#10381](https://github.com/deepflowio/deepflow/pull/10381) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: test-server support set grpc-buffer-size [#10376](https://github.com/deepflowio/deepflow/pull/10376) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: update auto_service/instance when gpid from process_id [#10372](https://github.com/deepflowio/deepflow/pull/10372) by [lzf575](https://github.com/lzf575)
+* fix: agent - eBPF Fix CPU affinity interference from numad for agent [#10370](https://github.com/deepflowio/deepflow/pull/10370) by [yinjiping](https://github.com/yinjiping)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +278,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: perf_event table change to file_event [#10365](https://github.com/deepflowio/deepflow/pull/10365) by [lzf575](https://github.com/lzf575)
+* feat: auto grpc buffer size [#10348](https://github.com/deepflowio/deepflow/pull/10348) by [askyrie](https://github.com/askyrie)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
