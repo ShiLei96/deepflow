@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* Revert "fix: update auto_service/instance when gpid from process_id" [#10399](https://github.com/deepflowio/deepflow/pull/10399) by [lzf575](https://github.com/lzf575)
+* fix: mysql issu index [#10397](https://github.com/deepflowio/deepflow/pull/10397) by [askyrie](https://github.com/askyrie)
+* fix: agent - Add conditional compilation to protect_cpu_affinity() [#10387](https://github.com/deepflowio/deepflow/pull/10387) by [yinjiping](https://github.com/yinjiping)
+* fix: support biz_type at HOOK_POINT_HTTP_REQ/RESP [#10371](https://github.com/deepflowio/deepflow/pull/10371) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +278,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: tagrecorder add updated_at index [#10379](https://github.com/deepflowio/deepflow/pull/10379) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
