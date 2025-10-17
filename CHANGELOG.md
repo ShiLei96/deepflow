@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: vpc model error [#10618](https://github.com/deepflowio/deepflow/pull/10618) by [askyrie](https://github.com/askyrie)
+* fix: mac resource is incorrect [#10613](https://github.com/deepflowio/deepflow/pull/10613) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add config to pcap output queue size [#10605](https://github.com/deepflowio/deepflow/pull/10605) by [rvql](https://github.com/rvql)
+* feat: vtap groups verify name [#10599](https://github.com/deepflowio/deepflow/pull/10599) by [askyrie](https://github.com/askyrie)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
