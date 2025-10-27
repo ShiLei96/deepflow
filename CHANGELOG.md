@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: enterprise compile failed [#10664](https://github.com/deepflowio/deepflow/pull/10664) by [lzf575](https://github.com/lzf575)
+* fix: misremove tracetree trace_id_2 [#10661](https://github.com/deepflowio/deepflow/pull/10661) by [taloric](https://github.com/taloric)
+* fix: allow fuzzy search in payload [#10653](https://github.com/deepflowio/deepflow/pull/10653) by [taloric](https://github.com/taloric)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +277,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: app log add trace id,span id [#10662](https://github.com/deepflowio/deepflow/pull/10662) by [lzf575](https://github.com/lzf575)
+* feat: attribute web.vitals.xxx as OTel metrics [#10660](https://github.com/deepflowio/deepflow/pull/10660) by [lzf575](https://github.com/lzf575)
+* feat: add uid for dedup metrics in trace tree [#10648](https://github.com/deepflowio/deepflow/pull/10648) by [taloric](https://github.com/taloric)
+* feat: support multiple trace_ids [#10646](https://github.com/deepflowio/deepflow/pull/10646) by [lzf575](https://github.com/lzf575)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
