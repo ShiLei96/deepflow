@@ -274,6 +274,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: eBPF Modify the method of marking the close event [#10774](https://github.com/deepflowio/deepflow/pull/10774) by [yinjiping](https://github.com/yinjiping)
+* feat: querier supports group trace_id [#10771](https://github.com/deepflowio/deepflow/pull/10771) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: Support SqlInsertionColumn extraction [#10768](https://github.com/deepflowio/deepflow/pull/10768) by [rvql](https://github.com/rvql)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
