@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: use aavg instead of avg in deepflow avg countings [#10822](https://github.com/deepflowio/deepflow/pull/10822) by [taloric](https://github.com/taloric)
+* fix: cloud not stop [#10819](https://github.com/deepflowio/deepflow/pull/10819) by [askyrie](https://github.com/askyrie)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -577,6 +579,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: Reduce the load and bandwidth usage on MySQL [#10826](https://github.com/deepflowio/deepflow/pull/10826) by [SongZhen0704](https://github.com/SongZhen0704)
 * perf: add primary key for in_process table [#8623](https://github.com/deepflowio/deepflow/pull/8623) by [lzf575](https://github.com/lzf575)
 * perf: modify materialized view local table without group by [#8575](https://github.com/deepflowio/deepflow/pull/8575) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of json string escape [#8508](https://github.com/deepflowio/deepflow/pull/8508) by [lzf575](https://github.com/lzf575)
