@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Avoid making frequent requests to the server [#10855](https://github.com/deepflowio/deepflow/pull/10855) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: disorder of memory cache in recorder [#10849](https://github.com/deepflowio/deepflow/pull/10849) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
