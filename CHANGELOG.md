@@ -274,6 +274,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add field to dns and mysql [#10957](https://github.com/deepflowio/deepflow/pull/10957) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: add endpoint cache in trace tree [#10955](https://github.com/deepflowio/deepflow/pull/10955) by [taloric](https://github.com/taloric)
+* feat: Lua profiler for AArch64 [#10529](https://github.com/deepflowio/deepflow/pull/10529) by [qlndzt](https://github.com/qlndzt)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -598,6 +601,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: change iso8583 position [#10954](https://github.com/deepflowio/deepflow/pull/10954) by [lzf575](https://github.com/lzf575)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
