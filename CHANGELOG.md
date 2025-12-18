@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Avoid warning message when replacing custom_field_policies [#11035](https://github.com/deepflowio/deepflow/pull/11035) by [rvql](https://github.com/rvql)
+* fix: incorrect fin count [#11032](https://github.com/deepflowio/deepflow/pull/11032) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: ignore start_continuous_profiler error [#11021](https://github.com/deepflowio/deepflow/pull/11021) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +277,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier alert_event support tag_string [#11029](https://github.com/deepflowio/deepflow/pull/11029) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support multi vpcs/pod_clusters in biz service [#11020](https://github.com/deepflowio/deepflow/pull/11020) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: querier alert_event supports topk_endpoints [#11017](https://github.com/deepflowio/deepflow/pull/11017) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: add is_reversed to l7 info [#11012](https://github.com/deepflowio/deepflow/pull/11012) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -543,6 +550,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: optimize performance for rocketmq parsing further [#11004](https://github.com/deepflowio/deepflow/pull/11004) by [kylewanginchina](https://github.com/kylewanginchina)
 * refactor: Remove legacy agent config [#8586](https://github.com/deepflowio/deepflow/pull/8586) by [rvql](https://github.com/rvql)
 * refactor: modify log of configuration changes [#8258](https://github.com/deepflowio/deepflow/pull/8258) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: agent workspace dependencies [#8208](https://github.com/deepflowio/deepflow/pull/8208) by [TomatoMr](https://github.com/TomatoMr)
