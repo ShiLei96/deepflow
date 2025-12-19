@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify the position of the ooo metrics [#11048](https://github.com/deepflowio/deepflow/pull/11048) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: issue of unable to obtain control IP + MAC [#11039](https://github.com/deepflowio/deepflow/pull/11039) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: Windows compile error [#11038](https://github.com/deepflowio/deepflow/pull/11038) by [rvql](https://github.com/rvql)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +277,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add ooo_tx/rx fin_count fields [#11053](https://github.com/deepflowio/deepflow/pull/11053) by [lzf575](https://github.com/lzf575)
+* feat: cloud default region name [#11052](https://github.com/deepflowio/deepflow/pull/11052) by [askyrie](https://github.com/askyrie)
+* feat: cloud exception add timestamp [#11051](https://github.com/deepflowio/deepflow/pull/11051) by [askyrie](https://github.com/askyrie)
+* feat: querier add ooo metric [#10989](https://github.com/deepflowio/deepflow/pull/10989) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -598,6 +605,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: need to be built on Windows [#11040](https://github.com/deepflowio/deepflow/pull/11040) by [lzf575](https://github.com/lzf575)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
