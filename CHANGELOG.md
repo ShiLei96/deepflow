@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix too much log in platform sync and upgrade stuck in failure [#11081](https://github.com/deepflowio/deepflow/pull/11081) by [rvql](https://github.com/rvql)
+* fix: eBPF resolve failure to load Lua profile on Linux kernel 5.4 [#10968](https://github.com/deepflowio/deepflow/pull/10968) by [qlndzt](https://github.com/qlndzt)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: polish recorder db operator log [#11076](https://github.com/deepflowio/deepflow/pull/11076) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: polish cen orm field process [#11073](https://github.com/deepflowio/deepflow/pull/11073) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: eBPF Suppress logs for exited processes [#11072](https://github.com/deepflowio/deepflow/pull/11072) by [yinjiping](https://github.com/yinjiping)
+* feat: tagrecorder add policy_info [#11037](https://github.com/deepflowio/deepflow/pull/11037) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
