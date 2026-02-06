@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: if service not matched by pod, skip VPC IP matching [#11369](https://github.com/deepflowio/deepflow/pull/11369) by [lzf575](https://github.com/lzf575)
+* fix: eBPF Fix eBPF load failure on Linux 4.14 kernel [#11366](https://github.com/deepflowio/deepflow/pull/11366) by [yinjiping](https://github.com/yinjiping)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
