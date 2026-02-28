@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent_group_config list command error [#11412](https://github.com/deepflowio/deepflow/pull/11412) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: querier chost_ip filter error [#11409](https://github.com/deepflowio/deepflow/pull/11409) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: handle extra_filters with correct seq [#11408](https://github.com/deepflowio/deepflow/pull/11408) by [taloric](https://github.com/taloric)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
