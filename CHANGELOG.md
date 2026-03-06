@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: iso8583 is_reversed is invalid [#11440](https://github.com/deepflowio/deepflow/pull/11440) by [lzf575](https://github.com/lzf575)
+* fix: Lower sqlparser version for building in rust 1.75 [#11437](https://github.com/deepflowio/deepflow/pull/11437) by [rvql](https://github.com/rvql)
+* fix: iso8583 remove field 3 restriction from response endpoint [#11435](https://github.com/deepflowio/deepflow/pull/11435) by [lzf575](https://github.com/lzf575)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +277,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: HTTP export attributes in standalone [#11436](https://github.com/deepflowio/deepflow/pull/11436) by [lzf575](https://github.com/lzf575)
+* feat: stats support host tag [#11434](https://github.com/deepflowio/deepflow/pull/11434) by [lzf575](https://github.com/lzf575)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
