@@ -274,6 +274,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: log container resource limit changes before agent restart [#11462](https://github.com/deepflowio/deepflow/pull/11462) by [rvql](https://github.com/rvql)
+* feat: update cloud genesis default az name [#11460](https://github.com/deepflowio/deepflow/pull/11460) by [askyrie](https://github.com/askyrie)
+* feat: stats counter now skips nil values [#11459](https://github.com/deepflowio/deepflow/pull/11459) by [lzf575](https://github.com/lzf575)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -612,3 +615,7 @@
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
+
+
+#### Testing
+* chore: Move test cases [#11461](https://github.com/deepflowio/deepflow/pull/11461) by [rvql](https://github.com/rvql)
