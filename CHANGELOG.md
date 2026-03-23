@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* Fix dubbo heart msg [#11499](https://github.com/deepflowio/deepflow/pull/11499) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: rng errors [#11498](https://github.com/deepflowio/deepflow/pull/11498) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: missing vinterface [#11496](https://github.com/deepflowio/deepflow/pull/11496) by [askyrie](https://github.com/askyrie)
+* fix: validate xdp_queue_size in NIC apply path [#11494](https://github.com/deepflowio/deepflow/pull/11494) by [yinjiping](https://github.com/yinjiping)
+* fix: fix lua unwind in some cases [#11399](https://github.com/deepflowio/deepflow/pull/11399) by [qlndzt](https://github.com/qlndzt)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +279,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add Java classpath process matcher [#11497](https://github.com/deepflowio/deepflow/pull/11497) by [rvql](https://github.com/rvql)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
