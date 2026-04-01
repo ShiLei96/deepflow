@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Adjust TCP RTT algorithm [#11559](https://github.com/deepflowio/deepflow/pull/11559) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: delete genesis k8s cache [#11550](https://github.com/deepflowio/deepflow/pull/11550) by [askyrie](https://github.com/askyrie)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support match custom service without epc [#11552](https://github.com/deepflowio/deepflow/pull/11552) by [lzf575](https://github.com/lzf575)
+* feat: ip/port type biz service vpc is not required [#11551](https://github.com/deepflowio/deepflow/pull/11551) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: dubbo support java format [#11546](https://github.com/deepflowio/deepflow/pull/11546) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
@@ -577,6 +582,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: reduce kick thread latency with tunable SCHED_FIFO priority [#11549](https://github.com/deepflowio/deepflow/pull/11549) by [yinjiping](https://github.com/yinjiping)
 * perf: add primary key for in_process table [#8623](https://github.com/deepflowio/deepflow/pull/8623) by [lzf575](https://github.com/lzf575)
 * perf: modify materialized view local table without group by [#8575](https://github.com/deepflowio/deepflow/pull/8575) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of json string escape [#8508](https://github.com/deepflowio/deepflow/pull/8508) by [lzf575](https://github.com/lzf575)
