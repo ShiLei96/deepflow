@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: endless decode_map loop [#11570](https://github.com/deepflowio/deepflow/pull/11570) by [taloric](https://github.com/taloric)
+* fix: response count has decreased [#11561](https://github.com/deepflowio/deepflow/pull/11561) by [lzf575](https://github.com/lzf575)
+* fix: treat RST-after-successful-L7 as normal close (TcpFinClientRst) [#11557](https://github.com/deepflowio/deepflow/pull/11557) by [kylewanginchina](https://github.com/kylewanginchina)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -602,6 +605,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* Update ai-devel.yaml [#11576](https://github.com/deepflowio/deepflow/pull/11576) by [kylewanginchina](https://github.com/kylewanginchina)
 * doc: add vc dial example yaml [#9128](https://github.com/deepflowio/deepflow/pull/9128) by [taloric](https://github.com/taloric)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
