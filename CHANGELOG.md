@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: use CFS nice for ebpf kick thread scheduling [#11589](https://github.com/deepflowio/deepflow/pull/11589) by [yinjiping](https://github.com/yinjiping)
+* fix: return remote exec errors for unsupported types [#11584](https://github.com/deepflowio/deepflow/pull/11584) by [rvql](https://github.com/rvql)
 * fix: specific prome remote read content-type [#9142](https://github.com/deepflowio/deepflow/pull/9142) by [taloric](https://github.com/taloric)
 * fix: Windows compile and warnings [#9136](https://github.com/deepflowio/deepflow/pull/9136) by [rvql](https://github.com/rvql)
 * fix: Change oracle parse to accept multiple logs [#8756](https://github.com/deepflowio/deepflow/pull/8756) by [rvql](https://github.com/rvql)
@@ -274,6 +276,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: update exception_description to text [#11587](https://github.com/deepflowio/deepflow/pull/11587) by [askyrie](https://github.com/askyrie)
+* feat: add exception details [#11579](https://github.com/deepflowio/deepflow/pull/11579) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: vtap add exception description [#11571](https://github.com/deepflowio/deepflow/pull/11571) by [askyrie](https://github.com/askyrie)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
