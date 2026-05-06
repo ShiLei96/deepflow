@@ -274,6 +274,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add clickhouse storage monitor [#11695](https://github.com/deepflowio/deepflow/pull/11695) by [lzf575](https://github.com/lzf575)
+* feat(agent): add configurable socket syscall hook list [#11662](https://github.com/deepflowio/deepflow/pull/11662) by [yinjiping](https://github.com/yinjiping)
+* feat: support agent governance [#11446](https://github.com/deepflowio/deepflow/pull/11446) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: server add ping [#9137](https://github.com/deepflowio/deepflow/pull/9137) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Change config explanation for multiple namespaces [#9133](https://github.com/deepflowio/deepflow/pull/9133) by [rvql](https://github.com/rvql)
 * feat: Enable agent after first guard check [#8750](https://github.com/deepflowio/deepflow/pull/8750) by [rvql](https://github.com/rvql)
