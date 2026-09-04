@@ -602,6 +602,7 @@
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* refact: Adjust fast path map size [#11893](https://github.com/deepflowio/deepflow/pull/11893) by [yuanchaoa](https://github.com/yuanchaoa)
 * doc: add vc dial example yaml [#9128](https://github.com/deepflowio/deepflow/pull/9128) by [taloric](https://github.com/taloric)
 * add ci to clear stale branch [#8149](https://github.com/deepflowio/deepflow/pull/8149) by [jiumos](https://github.com/jiumos)
 * failed to create tables in ByConity database under non-default organization [#8148](https://github.com/deepflowio/deepflow/pull/8148) by [lzf575](https://github.com/lzf575)
